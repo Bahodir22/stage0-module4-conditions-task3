@@ -5,7 +5,7 @@ public class Seasons {
         if(month <= 2 || month==12){
             System.out.println("Winter");
         }
-        if (month>=2 && month<6) {
+        if (month>2 && month<6) {
             System.out.println("Spring");
         }
         if (month>5 && month<9) {
